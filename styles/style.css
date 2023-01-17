@@ -137,19 +137,21 @@ quick-list section styles
 
 /* love section styles
 .................................. */
-.love-con{
+.main-container{
     display: flex;
     justify-content: center;
     
 }
-
+.main-container-section{
+    width: 80%;
+}
 
 .love-enjoy-con{
     display: flex;
     justify-content: space-between;
     gap: 100px;
     margin-top: 120px;
-    width: 80%;
+    
 }
 
 .right-love{
@@ -195,4 +197,29 @@ quick-list section styles
     padding-top: 10px;
     color: #727272;
 
+}
+/* float button...........
+............................ */
+.float-button{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -150px;
+}
+
+.ex-button{
+    padding: 45px 42px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 30%;
+}
+
+.ex-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.ex-description{
+    font-size: 25px;
+    font-weight: 500;
 }
