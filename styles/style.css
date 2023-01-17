@@ -223,3 +223,42 @@ quick-list section styles
     font-size: 25px;
     font-weight: 500;
 }
+/* ................
+..........facts section styles......
+........................... */
+
+.facts-section{
+    margin-top: 150px;
+}
+
+.facts-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.win-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    color: #727272;
+}
+.facts-description{
+    color: #727272;
+    font-size: 14px;
+}
+
+.win-box{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px 40px;
+    border: 1px solid #FF900E;
+    border-radius: 15px;
+    background: rgba(3, 56, 17, 0.212);
+    
+}
+
+.win-box:hover {
+    color: #fff;
+    transform: rotate(360deg);
+    transition: width 0s, height 0s, transform .1s;
+  }
