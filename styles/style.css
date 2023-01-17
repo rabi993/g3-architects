@@ -11,7 +11,8 @@
 .header-container{
     display: flex;
     justify-content: center;
-    background: rgba(255, 144, 14, 0.1);
+    /* background: rgba(213, 226, 231, 0.986); */
+    background: rgba(225, 226, 226, 0.986);
 }
 .header-section{
     width: 80%;
@@ -86,6 +87,8 @@ quick-list section styles
     display: flex;
     justify-content: center;
     
+    background: rgba(232, 233, 235, 0.986);
+    
 }
 
 .quick-list{
@@ -140,6 +143,7 @@ quick-list section styles
 .main-container{
     display: flex;
     justify-content: center;
+    background: rgba(232, 233, 235, 0.986);
     
 }
 .main-container-section{
@@ -244,7 +248,8 @@ quick-list section styles
 }
 .facts-description{
     color: #727272;
-    font-size: 14px;
+    font-size: 16px;
+    padding: 20px 0 50px 0;
 }
 
 .win-box{
@@ -262,3 +267,39 @@ quick-list section styles
     transform: rotate(360deg);
     transition: width 0s, height 0s, transform .1s;
   }
+/* spons...........styles */
+.sp{
+    text-align: center;
+    padding-top: 130px;
+}
+
+.sp-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.sp-description{
+    color: #727272;
+}
+
+.sp-logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 80px;
+    opacity: 75%;
+}
+/* footer styles ..................
+.......................... */
+footer{
+    padding: 30px 0 30px 0;
+    background: rgba(3, 56, 17, 0.212);
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #424242;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
