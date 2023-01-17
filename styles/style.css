@@ -444,14 +444,16 @@ responsive
     }
 
     .float-button {
-       
-       display: none;
+        margin-left: 50px;
+        margin-top: 10px;
+       /* display: none; */
+       /* padding-bottom: 100px; */
     }
     .watch{
         display: none;
     }
     .facts-section {
-        margin-top: 30px;
+        margin-top: 220px;
         padding: 0 20px;
     }
 
@@ -465,14 +467,15 @@ responsive
         padding: 0 30px;
     }
     .sp{
-        padding-top: 20px;
+        padding: 20px 20px 20px 20px;
+        
     }
     .sp-logo {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-
+   
     
     
 }
