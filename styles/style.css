@@ -1,71 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
 /*.............................
             header  styles
  ............................*/
-.header-container{
+.header-container {
     display: flex;
     justify-content: center;
     /* background: rgba(213, 226, 231, 0.986); */
     background: rgba(225, 226, 226, 0.986);
 }
-.header-section{
+
+.header-section {
     width: 80%;
 }
 
-.logo-title{
+.logo-title {
     font-size: 45px;
     font-weight: 700;
     color: #131313;
 }
-.nav-ber{
+
+.nav-ber {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
 }
 
-.menus{
+.menus {
     display: flex;
     list-style: none;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
     color: #424242;
 }
-.menu .menu-title{
+
+.menu .menu-title {
     margin-right: 40px;
 }
 
 /* ............header title  styles
 .......................................*/
-.header-section-container{
+.header-section-container {
     text-align: center;
 }
 
-.header-title{
+.header-title {
     font-size: 64px;
     font-weight: 700;
     color: #131313;
     padding-top: 80px;
 }
 
-.header-description{
+.header-description {
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
-.button-p{
+.button-p {
     padding: 20px 25px;
-    background-color: #FF900E;
+    background-color: rgb(118 188 226);
     border: none;
     border-radius: 10px;
     font-weight: 600;
@@ -74,7 +78,7 @@
     cursor: pointer;
 }
 
-.banner-image img{
+.banner-image img {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 40px;
@@ -83,218 +87,273 @@
 /* .........................
 quick-list section styles 
 ..............................*/
-.quick-list-section{
+.quick-list-section {
     display: flex;
     justify-content: center;
-    
+
     background: rgba(232, 233, 235, 0.986);
-    
+
 }
 
-.quick-list{
+.quick-list {
     display: flex;
     gap: 50px;
     align-items: center;
     padding-top: 85px;
-    
 
-    
+
+
 }
-.quick-list-images{
+
+.quick-list-images {
     width: 50%;
 }
-.quick-list-blog{
+
+.quick-list-blog {
     width: 50%;
 }
-.images{
+
+.images {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    
+
 }
 
-.images img{
+.images img {
     width: 240px;
     height: 240px;
 }
 
-.quick-list-blog-title{
+.quick-list-blog-title {
     font-size: 45px;
     font-weight: 500;
     color: #131313;
 }
 
-.quick-list-blog-description{
+.quick-list-blog-description {
     color: #727272;
     padding: 24px 0;
     font-size: 16px;
-    
+
 }
-.quick{
+
+.quick {
     color: #727272
 }
 
-.feat{
-    color: #FF900E
+.feat {
+    color: rgb(118 188 226)
 }
 
 /* love section styles
 .................................. */
-.main-container{
+.main-container {
     display: flex;
     justify-content: center;
     background: rgba(232, 233, 235, 0.986);
-    
+
 }
-.main-container-section{
+
+.main-container-section {
     width: 80%;
 }
 
-.love-enjoy-con{
+.love-enjoy-con {
     display: flex;
     justify-content: space-between;
     gap: 100px;
     margin-top: 120px;
-    
+
 }
 
-.right-love{
+.right-love {
     padding: 20px 200px 0 0;
 }
 
-.love-image img{
+.love-image img {
     width: 100%;
-    
+
 }
 
-.enjoy-title{
+.enjoy-title {
     font-size: 45px;
     font-weight: 700;
-    border-left: 4px solid #FF900E;
+    border-left: 4px solid rgb(118 188 226);
     padding-left: 20px;
 }
 
-.enjoy-description{
+.enjoy-description {
     padding: 20px 0;
     color: #727272;
 }
 
-.sub-title-box{
+.sub-title-box {
     box-shadow: rgba(0, 0, 0, 0.199) 0px 4px 12px;
     padding: 20px;
     border-radius: 10px;
 }
 
-.left-box{
+.left-box {
     padding-top: 16px;
 }
 
-.love-sub-title{
+.love-sub-title {
     font-size: 20px;
     font-weight: 600;
     color: #131313;
     padding-bottom: 10px;
 }
 
-.sub-title-des{
+.sub-title-des {
     font-size: 16px;
     padding-top: 10px;
     color: #727272;
 
 }
+
 /* float button...........
 ............................ */
-.float-button{
+.float-button {
     position: absolute;
     margin-left: 40%;
     margin-top: -150px;
 }
 
-.ex-button{
+.ex-button {
     padding: 45px 42px;
     color: #FFFFFF;
-    background-color: #FF900E;
+    background-color: rgb(118 188 226);
     border: none;
     border-radius: 30%;
 }
 
-.ex-title{
+.ex-title {
     font-size: 65px;
     font-weight: 700;
 }
 
-.ex-description{
+.ex-description {
     font-size: 25px;
     font-weight: 500;
 }
+
+/* extra section styles */
+.watch {
+
+    display: grid;
+    grid-template-columns: 1 1fr;
+    justify-content: center;
+
+    margin-top: 150px;
+}
+
+.gradient {
+    height: 300px;
+    width: 1140px;
+    top: 2221.96px;
+    background: linear-gradient(90deg, rgb(118 188 226) 0%, rgba(5, 43, 46, 0.39) 80%), url("../images/watch.png");
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-position: center;
+
+}
+
+.gradient-content {
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+
+}
+.call-now{
+    padding: 20px 25px;
+    background-color: rgb(2, 58, 88);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 /* ................
 ..........facts section styles......
 ........................... */
 
-.facts-section{
+.facts-section {
     margin-top: 150px;
 }
 
-.facts-title{
+.facts-title {
     font-size: 45px;
     font-weight: 700;
 }
 
-.win-section{
+.win-section {
     display: flex;
     justify-content: space-around;
     margin: 60px 0;
-    color: #727272;
+    color: rgb(2, 58, 88);
 }
-.facts-description{
+
+.facts-description {
     color: #727272;
     font-size: 16px;
     padding: 20px 0 50px 0;
 }
 
-.win-box{
+.win-box {
     text-align: center;
     box-sizing: border-box;
     padding: 40px 40px;
-    border: 1px solid #FF900E;
+    border: 1px solid rgba(1, 36, 54, 0.233);
     border-radius: 15px;
-    background: rgba(3, 56, 17, 0.212);
-    
+    background: rgb(118 188 226);
+
 }
 
 .win-box:hover {
     color: #fff;
     transform: rotate(360deg);
     transition: width 0s, height 0s, transform .1s;
-  }
+}
+
 /* spons...........styles */
-.sp{
+.sp {
     text-align: center;
     padding-top: 130px;
 }
 
-.sp-title{
+.sp-title {
     font-size: 45px;
     font-weight: 700;
     padding-bottom: 24px;
 }
 
-.sp-description{
+.sp-description {
     color: #727272;
 }
 
-.sp-logo{
+.sp-logo {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
     margin-bottom: 80px;
     opacity: 75%;
 }
+
 /* footer styles ..................
 .......................... */
-footer{
+footer {
     padding: 30px 0 30px 0;
-    background: rgba(3, 56, 17, 0.212);
+    background: rgb(118 188 226);
     text-align: center;
     font-weight: 400;
     font-size: 15px;
@@ -302,4 +361,3 @@ footer{
     margin-bottom: 30px;
     border-radius: 5px;
 }
-
