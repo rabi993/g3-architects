@@ -6,7 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 /*.............................
- header 
+            header  styles
  ............................*/
 .header-container{
     display: flex;
@@ -44,6 +44,8 @@
     margin-right: 40px;
 }
 
+/* ............header title  styles
+.......................................*/
 .header-section-container{
     text-align: center;
 }
@@ -75,4 +77,60 @@
     width: 100%;
     padding-top: 50px;
     padding-bottom: 40px;
+}
+
+/* .........................
+quick-list section styles 
+..............................*/
+.quick-list-section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.quick-list{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-top: 85px;
+    
+
+    
+}
+.quick-list-images{
+    width: 50%;
+}
+.quick-list-blog{
+    width: 50%;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+
+.images img{
+    width: 240px;
+    height: 240px;
+}
+
+.quick-list-blog-title{
+    font-size: 45px;
+    font-weight: 500;
+    color: #131313;
+}
+
+.quick-list-blog-description{
+    color: #727272;
+    padding: 24px 0;
+    font-size: 16px;
+    
+}
+.quick{
+    color: #727272
+}
+
+.feat{
+    color: #FF900E
 }
